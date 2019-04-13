@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.background{
+  width: 1440px;
+  height: 100%;
+}
+
+.backgroundIMG{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* pop up */
+
+.InteractiveButton {
+  opacity: 0;
+}
+
+.InteractiveButton:hover {
+  opacity: 1;
+}
+
+/* items */
+#cupboard {
+  position: relative;
+    top:-708px;
+    left: 15%;
+    width: 16%;
+}
+
+
+#laptop {
+  position: relative;
+    top: -590px;
+    left: 76%;
+    width: 23%;
+    height: 23%;
+}
+
+#laptop-slide {
+  position: absolute;
+    bottom: 0px;
+    left: -100%;
+    width: 50%;
+}
+
+#cupboard-slide {
+  position: absolute;
+    top: 0px;
+    right: -100%;
+    width: 50%;
+}
+
+#Paulisculprit {
+  visibility: hidden;
+  position: absolute;
+  top: 200px;
+  left: 23%;
+}
+
+#choice1 {
+  position: absolute;
+  top: -100px;
+}
+
+#choice2{
+  position: absolute;
+  top: -100px;
+}
+@-webkit-keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity: 1;}
+}
+@keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity: 1;}
+}
+@-webkit-keyframes slideInLeft{
+  from{left:-100%;}
+  to{left:0%;}
+}
+@keyframes slideInLeft{
+  from{left:-100%;}
+  to{left:0%;}
+}
+@-webkit-keyframes slideInRight{
+  from{right:-100%;}
+  to{right:0%;}
+}
+@keyframes slideInRight{
+  from{right:-100%;}
+  to{right:0%;}
+}
