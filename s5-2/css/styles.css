@@ -3,6 +3,7 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: black;
+  font-family:"Permanent Marker";
 }
 .page{
   width:1440px;

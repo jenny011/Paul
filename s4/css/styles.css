@@ -3,6 +3,7 @@ body{
   overflow-x: hidden;
   overflow-y: auto;
   background-color: white;
+  font-family:"Permanent Marker";
 }
 button:hover{
   cursor:pointer;
