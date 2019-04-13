@@ -1,4 +1,4 @@
-# """To view the project, start from file 'index.html' in folder 's12'"""
+# """To view the project, start from file 'index.html'"""
 # """Thank you for your interest!"""
 # Interactive Comics - Paul
 # Communications Lab course project
