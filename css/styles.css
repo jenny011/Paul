@@ -119,7 +119,7 @@ button:hover{
   background-image:linear-gradient(black,white);
   font-size: 80px;
   text-align: center;
-  color: gray;
+  color: black;
 }
 #nextday{
   position:relative;

@@ -110,15 +110,6 @@ function slideIn(){
 }
 
 function transit(){
-    var arrow = document.createElement("img");
-      arrow.src = "images/s0-1.png";
-      arrow.style.display="block";
-      arrow.style.position="absolute";
-      arrow.style.top="4360px";
-      arrow.style.left="648px";
-      arrow.style.width="150px";
-      arrow.style.height="83px";
-      document.body.append(arrow);
     var img = document.createElement("img");
       img.src = "images/s2-4.png";
       img.style.display="block";

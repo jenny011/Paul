@@ -1,8 +1,9 @@
 body{
   margin: 0;
   background-color: black;
-  overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "Permanent Marker";
+  height:100%;
 }
 
 .background{

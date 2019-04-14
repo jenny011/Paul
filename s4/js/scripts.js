@@ -35,12 +35,6 @@ function popBubble(){
         document.body.style.overflowY=('hidden');
       }
   }
-  else if(y>2200 && y<=2400){
-    scene = "s4-2-";
-      section = "1";
-      popup(scene,section,b4_2_1);
-      b4_2_1=true;
-  }
   else if(y>3800){
     scene = "s4-3-";
     if(y>3800 && y<=4300){
@@ -74,7 +68,8 @@ function ringing(scene,section,b){
 
 function camera(){
    scroll=true;
-   document.getElementById("arrow").style.opacity=("1");
+   // document.getElementById("#s4-2-1").style.opacity=("1");
+   popup("s4-2-","1",b4_2_1);
    document.body.style.overflowY=('auto');
  }
 
