@@ -88,20 +88,20 @@ function popup(scene,section,b){
   }
 }
 
-var img = document.createElement("img");
-img = new Image();
+// var img = document.createElement("img");
+var img = new Image();
 img.src = "images/s2-03.png";
 
 function slideIn(){
   slidein=true;
   if (slidein===true){
+    document.body.appendChild(img);
     img.style.display="block";
     img.style.position="absolute";
     img.style.top="3715px";
     img.style.left="-100%";
     img.style.animation="slideIn 10s";
     img.style.WebkitAnimation="slideIn 10s";
-    document.body.append(img);
     slidein = false;
     transition = true;
     if(transition===true){
