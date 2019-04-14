@@ -9,7 +9,6 @@ window.onbeforeunload = function () {
 
 function popBubble(){
   var y = window.scrollY;
-  console.log(y);
   var h = document.body.scrollHeight;
   scene = "s5-1-";
   if(y>1000 && y<=1300){

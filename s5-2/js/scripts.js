@@ -21,7 +21,6 @@ function addImg(){
 
 function popBubble(){
   var y = window.scrollY;
-  console.log(y);
   var h = document.body.scrollHeight;
   if(y<=3700){
     scene = "s5-2-1-";
