@@ -14,7 +14,6 @@ window.onbeforeunload = function () {
 function bye(){
   var y = window.scrollY;
   var cover = document.getElementById("cover");
-  console.log(y);
   // var container = document.getElementById("container");
   if(y>2 && b0===false){
     cover.classList.toggle("hide");
