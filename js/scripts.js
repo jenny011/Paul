@@ -89,11 +89,13 @@ function popup(scene,section,b){
   }
 }
 
+var img = document.createElement("img");
+img = new Image();
+img.src = "images/s2-03.png";
+
 function slideIn(){
   slidein=true;
   if (slidein===true){
-    var img = document.createElement("img");
-    img.src = "images/s2-03.png";
     img.style.display="block";
     img.style.position="absolute";
     img.style.top="3715px";
