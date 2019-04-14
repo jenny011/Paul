@@ -90,7 +90,7 @@ function popup(scene,section,b){
 
 // var img = document.createElement("img");
 var img = new Image();
-img.src = "images/s2-03.png";
+img.src = "images/s2-3.png";
 img.style.display="block";
 img.style.position="absolute";
 img.style.top="3715px";
