@@ -91,15 +91,15 @@ function popup(scene,section,b){
 // var img = document.createElement("img");
 var img = new Image();
 img.src = "images/s2-03.png";
+img.style.display="block";
+img.style.position="absolute";
+img.style.top="3715px";
+img.style.left="-100%";
+document.body.appendChild(img);
 
 function slideIn(){
   slidein=true;
   if (slidein===true){
-    document.body.appendChild(img);
-    img.style.display="block";
-    img.style.position="absolute";
-    img.style.top="3715px";
-    img.style.left="-100%";
     img.style.animation="slideIn 10s";
     img.style.WebkitAnimation="slideIn 10s";
     slidein = false;
