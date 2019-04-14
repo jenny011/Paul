@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Paul</title>
+  </head>
+  <body>
+
+    <!-- s4 interactive -->
+    <!-- background -->
+    <div class="background">
+      <img class="backgroundIMG" src="img/S4int Background.png">
+    </div>
+
+    <!-- larger items/files -->
+    <div class="InteractiveButton" onclick="message1()" >
+      <img id="cupboard"  src="img/cupboard.png">
+    </div>
+
+    <div class="InteractiveButton">
+      <img id="laptop" onclick="message2()" src="img/laptop.png">
+    </div>
+
+    <div class="SlideIns">
+      <img id="laptop-slide" src="img/S4int-1.png">
+    </div>
+
+    <div class="SlideIns">
+      <img id="cupboard-slide" src="img/S4int-2.png">
+    </div>
+
+    <div class="Culprit">
+      <img id="Paulisculprit"
+      src="img/culprit.png">
+    </div>
+
+
+<form id="choice1">
+  <input style="width:250px; padding:10px; cursor: pointer; font-size: 100%; border-radius: 10px; border-width: 2px;"
+  type="button"
+  value="Call Officer James immediately"
+  onclick="window.location.href='../s5-1/index.html'"/>
+
+</form>
+
+<form id="choice2">
+  <input style="width:305px; padding:10px; cursor: pointer; font-size: 100%; border-radius: 10px; border-width: 2px;"
+  type="button"
+  value="Download evidence before Paul returns"
+    onclick="window.location.href='../s5-2/index.html'"/>
+</form>
+
+  </body>
+
+  <script src="js/scripts.js" type="text/javascript">
+  </script>
+
+</html>
