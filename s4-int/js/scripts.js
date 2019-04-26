@@ -5,7 +5,7 @@ var b2 = false;
 
 function message1() {
   cupboard = true;
-  slideIn("cupboard-slide","Right",cupboard);
+  slideIn("cupboard-slide","Left",cupboard);
   cupboard = false;
  b1 = true;
 
@@ -16,7 +16,7 @@ function message1() {
 
 function message2() {
   laptop = true;
-  slideIn("laptop-slide", "Left",laptop);
+  slideIn("laptop-slide", "Right",laptop);
   laptop = false;
 
   b2 = true;

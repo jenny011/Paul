@@ -47,15 +47,15 @@ body{
 
 #laptop-slide {
   position: absolute;
-    bottom: 0px;
-    left: -100%;
+    top: 0px;
+    right: -100%;
     width: 50%;
 }
 
 #cupboard-slide {
   position: absolute;
-    top: 0px;
-    right: -100%;
+    bottom: 0px;
+    left: -100%;
     width: 50%;
 }
 
